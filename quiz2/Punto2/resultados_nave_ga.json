@@ -1,0 +1,187 @@
+{
+  "guardado": "2026-09-25 13:42:42",
+  "parametros": {
+    "poblacion": 20,
+    "elite": 2,
+    "prob_cruce": 0.8,
+    "prob_mutacion": 0.75,
+    "max_generaciones": 100,
+    "meta_tasa_aterrizajes": 0.5,
+    "racha_convergencia": 2
+  },
+  "genes": [
+    "Ganancia horizontal",
+    "Ganancia de inclinación",
+    "Amortiguación de giro",
+    "Velocidad de contacto",
+    "Frenado por altura"
+  ],
+  "generaciones_evaluadas": 12,
+  "convergio": true,
+  "mejor_score": 926,
+  "mejor_cromosoma": {
+    "Ganancia horizontal": 3.5898,
+    "Ganancia de inclinación": 3.8947,
+    "Amortiguación de giro": 4.0339,
+    "Velocidad de contacto": 0.3122,
+    "Frenado por altura": 0.2633
+  },
+  "historial": [
+    {
+      "gen": 1,
+      "mejor": 694,
+      "prom": 576.1,
+      "exitos": 0,
+      "cromosoma": [
+        9.3979,
+        4.8623,
+        1.6478,
+        0.488,
+        5.6557
+      ]
+    },
+    {
+      "gen": 2,
+      "mejor": 538,
+      "prom": 394.4,
+      "exitos": 0,
+      "cromosoma": [
+        6.9029,
+        4.9125,
+        2.0862,
+        0.3122,
+        1.07
+      ]
+    },
+    {
+      "gen": 3,
+      "mejor": 675,
+      "prom": 404.6,
+      "exitos": 0,
+      "cromosoma": [
+        6.9029,
+        4.9125,
+        2.0862,
+        0.2,
+        0.0
+      ]
+    },
+    {
+      "gen": 4,
+      "mejor": 673,
+      "prom": 479.4,
+      "exitos": 0,
+      "cromosoma": [
+        6.9029,
+        4.9125,
+        2.0862,
+        0.2,
+        0.0
+      ]
+    },
+    {
+      "gen": 5,
+      "mejor": 887,
+      "prom": 634.1,
+      "exitos": 3,
+      "cromosoma": [
+        3.8028,
+        5.0,
+        2.2975,
+        0.3122,
+        1.07
+      ]
+    },
+    {
+      "gen": 6,
+      "mejor": 904,
+      "prom": 631.1,
+      "exitos": 1,
+      "cromosoma": [
+        4.2684,
+        4.9125,
+        2.2975,
+        0.2,
+        2.5286
+      ]
+    },
+    {
+      "gen": 7,
+      "mejor": 861,
+      "prom": 592.1,
+      "exitos": 1,
+      "cromosoma": [
+        3.5898,
+        4.9125,
+        2.2975,
+        0.3122,
+        0.0
+      ]
+    },
+    {
+      "gen": 8,
+      "mejor": 690,
+      "prom": 565.4,
+      "exitos": 0,
+      "cromosoma": [
+        3.5898,
+        3.8947,
+        2.2975,
+        0.3122,
+        0.0
+      ]
+    },
+    {
+      "gen": 9,
+      "mejor": 917,
+      "prom": 683.5,
+      "exitos": 4,
+      "cromosoma": [
+        3.5898,
+        3.8947,
+        2.2975,
+        0.3122,
+        0.0
+      ]
+    },
+    {
+      "gen": 10,
+      "mejor": 916,
+      "prom": 696.1,
+      "exitos": 5,
+      "cromosoma": [
+        3.5898,
+        3.8947,
+        4.0339,
+        0.3122,
+        0.0
+      ]
+    },
+    {
+      "gen": 11,
+      "mejor": 918,
+      "prom": 811.8,
+      "exitos": 13,
+      "cromosoma": [
+        3.5898,
+        3.8947,
+        4.0339,
+        0.3122,
+        0.0
+      ]
+    },
+    {
+      "gen": 12,
+      "mejor": 926,
+      "prom": 827.7,
+      "exitos": 14,
+      "cromosoma": [
+        3.5898,
+        3.8947,
+        4.0339,
+        0.3122,
+        0.2633
+      ]
+    }
+  ]
+}

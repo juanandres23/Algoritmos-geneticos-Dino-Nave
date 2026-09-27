@@ -1,0 +1,72 @@
+{
+  "guardado": "2026-09-25 13:31:02",
+  "parametros": {
+    "poblacion": 20,
+    "elite": 2,
+    "prob_cruce": 0.8,
+    "prob_mutacion": 0.75,
+    "max_generaciones": 100,
+    "meta_score": 1000
+  },
+  "genes": [
+    "Distancia base",
+    "Anticipación",
+    "Fuerza de salto",
+    "Factor de ancho"
+  ],
+  "generaciones_evaluadas": 4,
+  "convergio": false,
+  "mejor_score": 115,
+  "mejor_cromosoma": {
+    "Distancia base": -42.097,
+    "Anticipación": 11.8384,
+    "Fuerza de salto": 9.0916,
+    "Factor de ancho": 0.5205
+  },
+  "historial": [
+    {
+      "gen": 1,
+      "mejor": 115,
+      "prom": 23.3,
+      "cromosoma": [
+        -42.097,
+        11.8384,
+        9.0916,
+        0.5205
+      ]
+    },
+    {
+      "gen": 2,
+      "mejor": 108,
+      "prom": 44.3,
+      "cromosoma": [
+        -42.097,
+        11.8384,
+        9.0916,
+        0.5205
+      ]
+    },
+    {
+      "gen": 3,
+      "mejor": 102,
+      "prom": 26.8,
+      "cromosoma": [
+        -42.097,
+        76.3752,
+        12.3242,
+        -0.9624
+      ]
+    },
+    {
+      "gen": 4,
+      "mejor": 43,
+      "prom": 17.9,
+      "cromosoma": [
+        3.1538,
+        11.8384,
+        12.4947,
+        3.0
+      ]
+    }
+  ]
+}
