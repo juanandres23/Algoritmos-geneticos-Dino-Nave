@@ -613,6 +613,7 @@ class App:
         Args:
             root (tk.Tk): Ventana raíz de Tkinter.
         """
+        self.root = root
         root.title("Dino · Algoritmo Genético")
         root.configure(bg=BG)
         root.resizable(False, False)
